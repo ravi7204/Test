@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_login"/>
+          <include name="verify_newbranch"/>
+          <include name="functiontoreport"/>
+          <include name="functiontoreport"/>
+          <include name="verify_lauch"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <methods>
+          <include name="verify_login"/>
+          <include name="verify_newbranch"/>
+          <include name="functiontoreport"/>
+          <include name="functiontoreport"/>
+          <include name="verify_lauch" invocation-numbers="0"/>
+          <include name="extentreport"/>
+        </methods>
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

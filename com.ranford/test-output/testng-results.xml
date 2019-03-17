@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="3" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2091091" started-at="2019-03-17T04:28:36Z" finished-at="2019-03-17T05:03:27Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="47" started-at="2019-03-17T04:28:36Z" finished-at="2019-03-17T04:28:36Z">
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <test-method status="FAIL" signature="functiontoreport(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@31ef45e3]" name="functiontoreport" is-config="true" duration-ms="0" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.verify_lauch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pagelibrary.com.ranford.Repository.functiontoreport(Repository.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functiontoreport -->
+        <test-method status="SKIP" signature="functiontoreport(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@31ef45e3]" name="functiontoreport" is-config="true" duration-ms="0" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functiontoreport -->
+        <test-method status="SKIP" signature="verify_lauch(java.lang.String)[pri:1, instance:com.pagelibrary.com.ranford.TestExecution@31ef45e3]" name="verify_lauch" duration-ms="0" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_lauch -->
+        <test-method status="SKIP" signature="verify_login()[pri:2, instance:com.pagelibrary.com.ranford.TestExecution@31ef45e3]" name="verify_login" duration-ms="15" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="SKIP" signature="verify_newbranch()[pri:3, instance:com.pagelibrary.com.ranford.TestExecution@31ef45e3]" name="verify_newbranch" duration-ms="0" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newbranch -->
+        <test-method status="SKIP" signature="functiontoreport(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@31ef45e3]" name="functiontoreport" is-config="true" duration-ms="0" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functiontoreport -->
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="2091012" started-at="2019-03-17T04:28:36Z" finished-at="2019-03-17T05:03:27Z">
+      <class name="com.pagelibrary.com.ranford.TestExecution">
+        <test-method status="PASS" signature="extentreport()[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="extentreport" is-config="true" duration-ms="422" started-at="2019-03-17T09:58:35Z" finished-at="2019-03-17T09:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentreport -->
+        <test-method status="PASS" signature="functiontoreport(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="functiontoreport" is-config="true" duration-ms="0" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T09:58:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.verify_lauch(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functiontoreport -->
+        <test-method status="FAIL" signature="verify_lauch(java.lang.String)[pri:1, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="verify_lauch" duration-ms="2090410" started-at="2019-03-17T09:58:36Z" finished-at="2019-03-17T10:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[java.nio.file.AccessDeniedException: C:\Users\ROCKST~1\AppData\Local\Temp\new-session899243753332677544.json
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'RAVI', ip: '192.168.43.31', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: java.nio.file.AccessDeniedException: C:\Users\ROCKST~1\AppData\Local\Temp\new-session899243753332677544.json
+Build info: version: '3.5.3', revision: 'a88d25fe6b', time: '2017-08-29T12:42:44.417Z'
+System info: host: 'RAVI', ip: '192.168.43.31', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_151'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:91)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:646)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:255)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:138)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:191)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:103)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:99)
+	at com.pagelibrary.com.ranford.Repository.launch(Repository.java:210)
+	at com.pagelibrary.com.ranford.TestExecution.verify_lauch(TestExecution.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.nio.file.AccessDeniedException: C:\Users\ROCKST~1\AppData\Local\Temp\new-session899243753332677544.json
+	at sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at sun.nio.fs.WindowsFileSystemProvider.implDelete(Unknown Source)
+	at sun.nio.fs.AbstractFileSystemProvider.deleteIfExists(Unknown Source)
+	at java.nio.file.Files.deleteIfExists(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:145)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	... 33 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_lauch -->
+        <test-method status="PASS" signature="functiontoreport(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="functiontoreport" is-config="true" duration-ms="1" started-at="2019-03-17T10:33:26Z" finished-at="2019-03-17T10:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.verify_login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functiontoreport -->
+        <test-method status="FAIL" signature="verify_login()[pri:2, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="verify_login" duration-ms="10" started-at="2019-03-17T10:33:26Z" finished-at="2019-03-17T10:33:26Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pagelibrary.com.ranford.LoginPage.username_editbox(LoginPage.java:12)
+	at com.pagelibrary.com.ranford.Repository.login(Repository.java:47)
+	at com.pagelibrary.com.ranford.TestExecution.verify_login(TestExecution.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_login -->
+        <test-method status="PASS" signature="functiontoreport(java.lang.reflect.Method)[pri:0, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="functiontoreport" is-config="true" duration-ms="0" started-at="2019-03-17T10:33:26Z" finished-at="2019-03-17T10:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.pagelibrary.com.ranford.TestExecution.verify_newbranch() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- functiontoreport -->
+        <test-method status="FAIL" signature="verify_newbranch()[pri:3, instance:com.pagelibrary.com.ranford.TestExecution@27c20538]" name="verify_newbranch" duration-ms="577" started-at="2019-03-17T10:33:26Z" finished-at="2019-03-17T10:33:27Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.pagelibrary.com.ranford.Admin.branches(Admin.java:11)
+	at com.pagelibrary.com.ranford.Repository.newbranch(Repository.java:116)
+	at com.pagelibrary.com.ranford.TestExecution.verify_newbranch(TestExecution.java:77)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newbranch -->
+      </class> <!-- com.pagelibrary.com.ranford.TestExecution -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
